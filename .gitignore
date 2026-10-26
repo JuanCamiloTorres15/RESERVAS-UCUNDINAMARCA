@@ -1,0 +1,28 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated files
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.tsbuildinfo
+
+# Local databases and logs
+*.sqlite
+*.db
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
